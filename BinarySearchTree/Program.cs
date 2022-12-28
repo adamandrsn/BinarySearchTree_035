@@ -26,5 +26,13 @@ namespace BinarySearchTree
      * refrences to the right child, and refrences to the left child
     internal class Program */
     
+    class Program
+    {
+        public Node ROOT;
+        public Program()
+        {
+            ROOT = null; /* Initializing ROOT to null */
+        }
+    }
 }
 
