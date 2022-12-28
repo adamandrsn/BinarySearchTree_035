@@ -6,10 +6,20 @@ using System.Threading.Tasks;
 
 namespace BinarySearchTree
 {
-    internal class Program
+    class Node
     {
-        static void Main(string[] args)
-        {
-        }
+        public string info;
+        public Node leftchild;
+        public Node rightchild;
+
+        // Constructor for the Node Class
+
+
     }
+
+    /* A node class consists of three things, the information,
+     * refrences to the right child, and refrences to the left child
+    internal class Program */
+    
 }
+
