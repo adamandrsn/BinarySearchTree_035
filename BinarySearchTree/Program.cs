@@ -33,6 +33,17 @@ namespace BinarySearchTree
         {
             ROOT = null; /* Initializing ROOT to null */
         }
+        public void search(string element, ref Node parent, ref Node currentNode)
+        {
+            /* This function search the currentNode if the specified Node as well as the current Node of its parents */
+            currentNode = ROOT;
+            parent = null;
+            while((currentNode != null) && (currentNode.info) < 0)
+                currentNode = currentNode.leftchild;
+            else
+                currentNode = currentNode.rightchild;
+        }
     }
+    
 }
 
